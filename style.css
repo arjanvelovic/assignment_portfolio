@@ -1,0 +1,99 @@
+#logo{
+    max-height: 60px;
+}
+
+#summarycontainer{
+    margin-top: 180px;
+}
+
+#hobbycontainer{
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 20% !important;
+    height: 4px !important;
+    color: black;
+}
+
+#headshot{
+    max-width: 400px;
+}
+
+#summarytxt{
+    max-width: 400px;
+    text-align: justify;
+}
+
+
+.instructors{
+    max-width: 1500px;
+}
+
+.HiddenBlock{
+    display: none;
+    background-color: rgba(0,0,0,0.45);
+    height: 100%;
+    margin:0%;
+    color: white;
+    padding: 20% 5% 20% 5%;
+    text-align: justify;
+    align-items: center;
+}
+
+#Cycling{
+    background-image: url(static/Cycling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Cycling:hover #CyclingShow{
+    display: none;
+}
+#Cycling:hover #CyclingHide{
+    display: flex;
+}
+
+#BJJ{
+    background-image: url(static/BJJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#BJJ:hover #BJJShow{
+    display: none;
+}
+#BJJ:hover #BJJHide{
+    display: flex;
+}
+
+#Hiking{
+    background-image: url(static/Hiking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Hiking:hover #HikingShow{
+    display: none;
+}
+#Hiking:hover #HikingHide{
+    display: flex;
+}
+
+#Travel{
+    background-image: url(static/Travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Travel:hover #TravelShow{
+    display: none;
+}
+#Travel:hover #TravelHide{
+    display: flex;
+}
